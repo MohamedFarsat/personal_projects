@@ -1,4 +1,4 @@
-## This section of the repository includes four different applications: Snake game, Tic-Tac-Toe game, Text-editor, and Calculator. Each project is designed to showcase different aspects of Python programming and GUI development using Tkinter.
+This section of the repository includes four different applications: Snake game, Tic-Tac-Toe game, Text-editor, and Calculator. Each project is designed to showcase different aspects of Python programming and GUI development using Tkinter.
 
 
 # Snake Game
