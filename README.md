@@ -50,7 +50,7 @@ The Calculator is a basic application implemented using Python and Tkinter. It a
 
 - Error handling for invalid inputs
 
-
+<br/>
 
 # Comprehensive Number Validator: IMEI, ISBN, UPC, and Credit Card Validator
 
