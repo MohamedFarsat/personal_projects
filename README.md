@@ -70,37 +70,40 @@ This Python program validates various types of identification numbers using diff
 
 ## Requirements for each type of number to be valid with samples:
 
-IMEI Number
-Length: 15 digits
-Validation: Luhn algorithm
-Sample: 490154203237518 (Valid IMEI)
+### IMEI Number
+- Length: 15 digits
+- Validation: Luhn algorithm
+- Sample: 490154203237518 (Valid IMEI)
 
-ISBN-10 Number
-Length: 10 digits
-Validation: Sum of the first 9 digits, each multiplied by its position (1-9), modulo 11. The check digit can be 0-9 or 'X'.
-Sample: 0306406152 (Valid ISBN-10)
+### ISBN-10 Number
+- Length: 10 digits
+- Validation: Sum of the first 9 digits, each multiplied by its position (1-9), modulo 11. The check digit can be 0-9 or 'X'.
+- Sample: 0306406152 (Valid ISBN-10)
 
-ISBN-13 Number
-Length: 13 digits
-Validation: Alternating sum of the digits multiplied by 1 or 3, modulo 10.
-Sample: 9780306406157 (Valid ISBN-13)
+### ISBN-13 Number
+- Length: 13 digits
+- Validation: Alternating sum of the digits multiplied by 1 or 3, modulo 10.
+- Sample: 9780306406157 (Valid ISBN-13)
 
-Universal Product Code (UPC)
-Length: 12 digits
-Validation: Sum of the odd-positioned digits (1-indexed), multiplied by 3, plus the sum of the even-positioned digits, modulo 10.
-Sample: 012345678905 (Valid UPC)
+### Universal Product Code (UPC)
+- Length: 12 digits
+- Validation: Sum of the odd-positioned digits (1-indexed), multiplied by 3, plus the sum of the even-positioned digits, modulo 10.
+- Sample: 012345678905 (Valid UPC)
 
-Visa Credit Card Number
-Length: 16 digits
-Validation: Luhn algorithm
-Sample: 4111111111111111 (Valid Visa)
+### Visa Credit Card Number
+- Length: 16 digits
+- Validation: Luhn algorithm
+- Sample: 4111111111111111 (Valid Visa)
 
-MasterCard Number
-Length: 16 digits
-Validation: Luhn algorithm
-Sample: 5555555555554444 (Valid MasterCard)
+### MasterCard Number
+- Length: 16 digits
+- Validation: Luhn algorithm
+- Sample: 5555555555554444 (Valid MasterCard)
 
-American Express (Amex) Card Number
-Length: 15 digits
-Validation: Luhn algorithm
-Sample: 378282246310005 (Valid Amex)
+### American Express (Amex) Card Number
+- Length: 15 digits
+- Validation: Luhn algorithm
+- Sample: 378282246310005 (Valid Amex)
+
+## Disclaimer: 
+- This program aims to provide validation for various identification numbers using well-established algorithms and methods. However, it may not catch every possible requirement or edge case.
